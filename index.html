@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Boogey Man</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header class="header">
+		<div class="navbar">
+			<a href="#home" class="navbar__logo">Boogeyman</a>
+			<input type="checkbox" id="navbar__toggle">
+			<ul class="navbar__items">
+				<li><a href="#home">
+					home
+					<label for="navbar__toggle"></label></a>
+				</li>
+				<li><a href="#about">about</a></li>
+				<li><a href="#blog">blog</a></li>
+				<li><a href="#contact">contact</a></li>
+			</ul>
+			<label for="navbar__toggle" class="navbar__toggle">
+				<span></span>
+				<span></span>
+				<span></span>
+			</label>
+		</div>
+	</header>
+	<section class="home" id='home'>
+		<div class="content">
+			<img src="image/avatar__me.jpg" class="content__avatar">
+			<h1>Nguyễn Văn Tài</h1>
+			<span>I am <b>Trainee</b></span>
+		</div>
+	</section>
+	<section class="about" id='about'>
+		<div class="container">
+			<div class="about__item">
+				<h2>About Me</h2>
+				<span>Tôi 21 tuổi, hiện đang là thực tập sinh tại Sun Asterisk vị trí Front-end. Ngôn ngữ tôi yêu thích là Javascript. Sở thích của tôi là code và bóng đá, game. Tôi đã sống ở Đà Nẵng được 2 năm.<span>
+				<div class="about__more">
+					<div class="follow">
+						<span>Fllow me</span>
+						<a href="#" hover-name='Facebook'>Facebook</a>
+						<a href="#" hover-name='Twitter'>Twitter</a>
+						<a href="#" hover-name='Instagram'>Instagram</a>
+					</div>
+					<div class="Mail Me">
+						<span>Mail Me</span>
+						<a href="#" hover-name='tainv.fe@gmail.com'>tainv.fe@gmail.com</a>
+					</div>
+				</div>
+			</div>
+			<div class="about__item">
+				<h2>My Skills</h2>
+				<div class="skills">
+					<div class="skill">
+						<span>HTML</span>
+						<span>90%</span>
+						<div class="progress-bg">
+							<div class="progress-bar" style="width: 90%"></div>
+						</div>
+					</div>
+					<div class="skill">
+						<span>Design</span>
+						<span>84%</span>
+						<div class="progress-bg">
+							<div class="progress-bar" style="width: 84%"></div>
+						</div>
+					</div>
+					<div class="skill">
+						<span>Coding</span>
+						<span>88%</span>
+						<div class="progress-bg">
+							<div class="progress-bar" style="width: 88%"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="blog" id="blog">
+		<div class="container">
+			<h1>LATEST NEWS</h1>
+			<div class="row">
+				<div class="card">
+					<img src="image/blog__img--1.jpg">
+					<div class="card__body">
+						<span class="card__data">19/9</span>
+						<h3>JavaScript
+						</h3>
+						<p>
+							JavaScript hoặc JS sẽ giúp tăng tính tương tác trên website. 
+							Script này chạy trên các trình duyệt của người dùng thay vì trên server 
+							và thường sử dụng thư viện của bên thứ 3 nên có thể tăng thêm chức năng 
+							cho website mà không phải code từ đầu.
+						</p>
+					</div>
+				</div>
+				<div class="card">
+					<img src="image/blog__img--2.jpg">
+					<div class="card__body">
+						<span class="card__data">19/9</span>
+						<h3>CSS
+						</h3>
+						<p>
+							CSS viết tắt của “Cascading Style Sheets” , nó giúp webmaster xác định styles và định nghĩa nhiều loại nội dung. 
+							Bạn có thể làm vậy thủ công với mọi yếu tố trong HTML, 
+							nhưng nếu vậy bạn sẽ cứ lặp đi lặp lại thành phần đó mà bạn dùng ở nhiều nơi khác nhau
+						</p>
+					</div>
+				</div>
+				<div class="card">
+					<img src="image/blog__img--3.jpg">
+					<div class="card__body">
+						<span class="card__data">19/9</span>
+						<h3>HTML
+						</h3>
+						<p>
+							Viết tắt của “Hypertext Markup Language”,
+							HTML là một trong số các ngôn ngữ lập trình phổ biến nhất trên web
+							và xây dựng nên các khối chính của một trang web.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="contact" id="contact">
+		<div class="container">
+			<h1>Contact</h1>
+			<div class="row">
+				<form class="contact__form">
+					<input type="text" name="Name" placeholder="Name" class="form-control">
+					<input type="text" name="Email" id="email" class="form-control" placeholder="Email">
+					<textarea placeholder="Message" name="Message" class="form-control"></textarea>
+					<button class="btn btn--submit">SEND</button>
+				</form>
+			</div>
+		</div>
+	</section>
+	<footer>© 2018 BoogeyMan | All rights reserved.</footer>
+</body>
+</html>
